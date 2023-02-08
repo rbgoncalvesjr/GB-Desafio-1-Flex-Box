@@ -1,0 +1,53 @@
+:root {
+    --azul-claro: rgba(42, 105, 126, 0.4);;
+    --cor-texto: rgba(63, 155, 159, 1);
+    --cor-icone: rgba(63, 155, 159, 0.4);
+    --cor_borda: rgba(112, 121, 124, 0.3);
+    --cor_fundo: rgba(172, 197, 206, 0.2);
+}
+
+.cardGroup {
+    width: 48em;
+    display: flex;
+    margin: 45vh auto;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: condensed;
+    border: 1px solid var(--cor_borda);
+    border-radius: 0.5em;
+}
+
+.cardGroup__card {
+    width: 16em;
+}
+
+.card__description {
+    text-align: center;
+} 
+
+.card__descriptionText {
+    font-size: 0.85em;
+    font-weight: 600;
+    padding-bottom: 0.5em;   
+}
+
+.cardGroup__cardDescription {
+    border: 1px solid var(--cor_borda);
+    padding: 0.3em 3em;
+}
+
+.card__price {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-shadow: 0 0.05em;
+    border: 1px solid var(--cor_borda);
+    padding: 0.3em 3em;
+    background-color: var(--cor_fundo);
+    text-align: center;
+}
+
+.icon {
+    color: var(--cor-icone);
+    font-size: 2em;
+    margin: 0.2em 0;
+}
