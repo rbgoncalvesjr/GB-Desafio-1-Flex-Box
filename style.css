@@ -15,6 +15,7 @@
     font-stretch: condensed;
     border: 1px solid var(--cor_borda);
     border-radius: 0.5em;
+    overflow: hidden;
 }
 
 .cardGroup__card {
