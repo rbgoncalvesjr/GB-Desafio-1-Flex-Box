@@ -4,6 +4,8 @@
     --cor-icone: rgba(63, 155, 159, 0.4);
     --cor_borda: rgba(112, 121, 124, 0.3);
     --cor_fundo: rgba(172, 197, 206, 0.2);
+    --cor_hover_fundo: rgb(255, 179, 0);
+    --cor-hover-texto: rgb(255, 255, 255);
 }
 
 .cardGroup {
@@ -51,4 +53,25 @@
     color: var(--cor-icone);
     font-size: 2em;
     margin: 0.2em 0;
+    transition: 0.5ms;
+}
+
+.fa-instagram:hover, .fa-twitter:hover, .fa-whatsapp:hover {
+    font-size: 2.2em;
+    margin: 0.135em 0;
+    cursor: pointer;
+}
+
+.card__price:hover {
+    background-color: var(--cor_hover_fundo);
+    cursor: pointer;
+    color: var(--cor-hover-texto);
+}
+
+@media (max-width: 820px) {
+    .cardGroup {
+        display: flex;
+        flex-direction: column;
+        width: 16em;
+    }
 }
